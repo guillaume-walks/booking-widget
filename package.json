@@ -1,0 +1,59 @@
+{
+  "name": "booking-widget",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://github.com/LinusBorg/talks/blob/master/2019-02-15%20Vue.js%20Amsterdam/Building%20Components%20with%20Vue%20CLI%203.pdf",
+  "scripts": {
+    "serve": "vue-cli-service serve ./demo/main",
+    "build:demo": "vue-cli-service build ./demo/main",
+    "build": "vue-cli-service build --target lib --name BookingWidget src/index.js",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "vue": "^2.6.6"
+  },
+  "main": "dist/BookingWidget.umd.js",
+  "browser": "dist/BookingWidget.common.js",
+  "unpkg": "dist/BookingWidget.umd.min.js",
+  "jsDelivr": "dist/BookingWidget.umd.min.js",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "peerDependencies": {
+    "vue": "^2.6.6"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.4.0",
+    "@vue/cli-plugin-eslint": "^3.4.0",
+    "@vue/cli-service": "^3.4.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.8.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "vue-template-compiler": "^2.5.21"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ]
+}
