@@ -1,7 +1,8 @@
 {
-  "name": "booking-widget",
+  "name": "booking-widget-vue",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
+  "author": "guillaume-walks",
   "homepage": "https://github.com/LinusBorg/talks/blob/master/2019-02-15%20Vue.js%20Amsterdam/Building%20Components%20with%20Vue%20CLI%203.pdf",
   "scripts": {
     "serve": "vue-cli-service serve ./demo/main",
