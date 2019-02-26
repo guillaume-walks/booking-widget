@@ -2,9 +2,9 @@ module.exports = {
   configureWebpack: {
     externals: {
       lodash: {
-        commonjs: 'lodash',
-        commonjs2: 'lodash',
-        root: '_'
+        commonjs: 'lodash.times',
+        commonjs2: 'lodash.times',
+        root: 'times'
       }
     }
   }

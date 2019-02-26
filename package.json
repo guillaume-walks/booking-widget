@@ -10,10 +10,6 @@
     "build": "vue-cli-service build --target lib --name BookingWidget src/index.js",
     "lint": "vue-cli-service lint"
   },
-  "dependencies": {
-    "lodash": "^4.17.11",
-    "vue": "^2.6.6"
-  },
   "main": "dist/BookingWidget.umd.js",
   "browser": "dist/BookingWidget.common.js",
   "unpkg": "dist/BookingWidget.umd.min.js",
@@ -24,7 +20,7 @@
   ],
   "peerDependencies": {
     "vue": "^2.6.6",
-    "lodash": "^4.17.11"
+    "lodash.times": "^4.3.2"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.4.0",
@@ -58,5 +54,9 @@
     "> 1%",
     "last 2 versions",
     "not ie <= 8"
-  ]
+  ],
+  "dependencies": {
+    "lodash.times": "^4.3.2",
+    "vue": "^2.6.7"
+  }
 }

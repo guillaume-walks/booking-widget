@@ -8,6 +8,7 @@
 
 <script>
 import HelloWorld from "./components/HelloWorld.vue";
+import _ from "lodash";
 // import BookingWidget from "BookingWidget";
 
 export default {

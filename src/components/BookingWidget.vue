@@ -4,15 +4,15 @@
 
 
 <script>
- /* eslint-disable */ 
+/* eslint-disable */
 
-// import _ from 'lodash'
+import times from "lodash/times";
 export default {
   props: ["name"],
-  mounted () {
-    console.log('debounce START', this.name )
-    // let t = _.times(3, String);
-    console.log('RESLUTS')
+  mounted() {
+    console.log("debounce START", this.name);
+    let t = times(3, String);
+    console.log("RESLUTS", t);
   }
 };
 </script>

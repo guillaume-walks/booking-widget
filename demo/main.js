@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import App from './App.vue'
-
+import times from 'lodash/times';
 import BookingWidget from '../src'
 Vue.use(BookingWidget)
 
